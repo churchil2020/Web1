@@ -1,0 +1,38 @@
+*{
+   box-sizing: border-box;
+   margin: 0; 
+}
+
+a{
+text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(228, 247, 248);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+}
+
+
+.nav-link{
+    margin: 0.5em;
+    border: 0.2em solid rgb(29, 110, 114)
+    padding: 0.2em;
+    font-size: 1.2em;
+    transition: ease-out 1s all
+}
+
+
+.nav-link:hover{
+    background-color: rgb(29, 110, 114);
+    color: white;
+}
