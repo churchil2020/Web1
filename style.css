@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0vh;
+    padding: 0vh;
+}
+body{
+    marg in: 0px;
+    padding: 0px;
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+
+    min-height: 100vh;
+    background-color: darkgray;
+}
+.nav{
+    height: 100px;
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: burlywood;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.logo{
+nav h3{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.navbar{
+    width: 60%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.navbar  li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1.0;
+
+}
+.navbar  li a{
+    color: white;
+    margin-left: 3%;
+    text-decoration: none;
+}
+.nav ul{
+    margin-left: 30%;
+.navbar  li a:hover{
+    color: turquoise;
+}
+.about{
+    height: 300px;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav ul li{
+    font-size: 30px;
+    list-style: none;
+    padding: 20px;
+.sec1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+
+}
+.sec2{
+    font-size: 25px;padding-top: 50px;
+}
+.sec2 input{
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.projects h1{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.sec3{
+  height: 70%;
+  width: 100%;
+
+}
+.sec3 img{
+  height: 60%;
+  width: 30%;
+  padding: 30px;
+}
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+}
+
+footer ul{ height: 60px;
+  width:600px ;
+  background-color:;
+ position: absolute;
+ left: 43%;
+ top: 50px;
+ display: flex;
+}
+.nav ul li a{
+  color: white;
+  text-decoration: none;
+footer ul li{
+  list-style: none;
+  justify-content: space-evenly; width: 50px;
+  width: 50px;
+  height: 50px;
+
+}
+.nav ul li a:hover{
+  color: violet;
+footer ul li a:hover{
+  color:turquoise ;
+}
+footer ul li a i{
+
+  color: chartreuse;
+  display: flex;
+}
+footer h2{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+   nav{
+       width: 100%;
+       height: 100px;
+       position: relative; 
+   }
+   h3{
+       position: absolute;
+       left:70px;
+       top: 10px;
+   }
+   .navbar{
+       position: absolute;
+       left: 0px;
+       top: 60px;
+   }
+
+
+
+   .navbar li a{
+       font-size: 15px;
+       padding: 10px;
+   }
+   .about{
+       width: 100%;
+       height: 500px;
+       position: relative;
+   }
+   .sec1{
+       width: 100%;
+       height: 200px;
+       position: absolute;
+       left: 30px;
+   }
+   .sec2{
+       position: absolute;
+       left: 0px;
+       top: 250px;
+       width: 100%;
+   }
+   .sec2 p{
+       font-size: 20px;
+   }
+   .projects{
+       width: 100%;
+       height: 400px;
+   }
+   .sec3{
+       display: flex;
+       flex-direction: column;
+   }
+   .sec3 img{
+       width: 100%;
+       height: 400px;
+   }
+   footer{
+       position: relative;
+       bottom: 0px;
+       width: 100%;
+       height: 130px;
+       bottom: ;
+   }
+   footer ul{
+       position: absolute;
+       left: 90px;
+       top: 20px;
+   }
+   footer h2{
+       position: absolute;
+       font-size: 20px;
+       top: 0px;
+       left: 30px;
+   }
+
+} 
